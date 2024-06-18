@@ -2,11 +2,9 @@
 
 #include <cares/detail/resolver.hpp>
 
-namespace cares
-{
+namespace cares {
 
 using resolver = detail::resolver;
 using iterator = detail::iterator;
 
-}
-
+} // namespace cares

@@ -1,11 +1,10 @@
 
-#include <boost/asio.hpp>
 #include <memory>
 
-namespace cares
-{
-namespace detail
-{
+#include <boost/asio.hpp>
+
+namespace cares {
+namespace detail {
 
 namespace asio = boost::asio;
 
@@ -16,5 +15,5 @@ using std::shared_ptr;
 using std::enable_shared_from_this;
 using std::make_shared;
 
-}
-}
+} // namespace detail
+} // namespace cares
